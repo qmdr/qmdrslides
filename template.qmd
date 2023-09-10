@@ -1,7 +1,6 @@
 ---
 title: First Slide Deck
 format: qmdrslides-revealjs
-subtitle: "A longer version of the title"
 ---
 
 ## Introduction
