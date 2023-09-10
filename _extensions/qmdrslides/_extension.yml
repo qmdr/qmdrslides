@@ -11,6 +11,7 @@ contributes:
       multiplex: false
       transition: fade
       slide-number: c
+      logo: logo.svg
       incremental: false 
       menu: false
       highlight-style: github
@@ -20,3 +21,29 @@ contributes:
         data-background-image: seaplane-bg.png
         data-background-size: contain
         data-background-color: "#f8f5f0"
+      include-after-body:
+        - text: |
+            <script type="text/javascript">
+              window.addEventListener('load', function() {
+                var logo = document.querySelector('.slide-logo');
+                var url = 'https://stat20.org';
+                logo.addEventListener('click', function() {
+                  window.open(url, '_blank');
+                });
+              });
+              Reveal.on('ready', event => {
+                if (event.indexh === 0) {
+                  document.querySelector("div.has-logo > img.slide-logo").style.display = "none";
+                }
+              });
+              Reveal.addEventListener('slidechanged', (event) => {
+                if (event.indexh === 0) {
+                  Reveal.configure({ slideNumber: null });
+                  document.querySelector("div.has-logo > img.slide-logo").style.display = "none";
+                }
+                if (event.indexh === 1) { 
+                  Reveal.configure({ slideNumber: 'c' });
+                  document.querySelector("div.has-logo > img.slide-logo").style.display = null;
+                }
+              });
+            </script>
