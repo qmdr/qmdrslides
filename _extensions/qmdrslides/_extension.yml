@@ -11,7 +11,7 @@ contributes:
       multiplex: false
       transition: fade
       slide-number: c
-      logo: logo.svg
+      footer: "[homepage](homepage.com)"
       incremental: false 
       menu: false
       highlight-style: github
