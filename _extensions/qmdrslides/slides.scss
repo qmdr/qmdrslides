@@ -14,11 +14,6 @@ $presentation-font-size-root: 46px;
   --purple-100: #73245e;
 }
 
-/*
-stat20 blue: 4466B0
-stat20 teal: 
-*/
-
 $red: #bf2642;
 $orange: #f2a03d;
 $green: #02733e;
@@ -146,48 +141,16 @@ div.meta-el {
 
 #title-slide h1 {
   text-align: left;
+  color: $blue;
   font-family: 'Nanum Myeongjo', serif;
 }
 
-#title-slide .institute {
-  font-style: italic;
-  font-size: 80%;
-}
-
-#title-slide .author {
-  color: $body-color;
-}
-
-#title-slide p.author::before {
-  content: "";
-  display: block;
-  border: none;
-  background-color: $body-color;
-  color: $body-color;
-  height: 3px;
-  margin-bottom: 1em;
-}
-
-#title-slide p, #title-slide a {
-  color: $body-color;
-}
-
-.footer {
+.reveal .footer {
+  font-size: .3em !important;
+  font-family: 'Nanum Myeongjo', serif !important;
   bottom: 8px !important;
 }
 
-.slide-logo {
-  display: block !important;
-  position: fixed !important;
-  top: 0 !important;
-  right: 10px !important;
-  max-height: 40% !important;
-  height: 100% !important;
-  width: auto !important;
-  color: $body-color !important;
-}
-
-.slide-menu-button {
-  left: 10px !important;
-  bottom: 10px !important;
+.reveal .slide-number > a[href*='title-slide'] {
+  display: none;
 }
