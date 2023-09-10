@@ -11,7 +11,7 @@ contributes:
       multiplex: false
       transition: fade
       slide-number: c
-      footer: "[homepage](homepage.com)"
+      footer: "[qmdr](index.html)"
       incremental: false 
       menu: false
       highlight-style: github
