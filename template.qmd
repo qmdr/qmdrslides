@@ -1,9 +1,7 @@
 ---
-title: Untitled
-format:
-  qmdrslides-revealjs: default
-author: andrewpbray
-date: last-modified
+title: First Slide Deck
+format: qmdrslides-revealjs
+subtitle: "A longer version of the title"
 ---
 
 ## Introduction
@@ -14,3 +12,8 @@ date: last-modified
 
 You can learn more about controlling the appearance of RevealJS output here: <https://quarto.org/docs/presentations/revealjs/>
 
+# Chapter 2
+
+## one last slide
+
+here
