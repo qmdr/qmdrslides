@@ -1,8 +1,6 @@
-# <%= title %> Format
+# qmdrslides format
 
 ## Installing
-
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
 
 ```bash
 quarto use template <github-organization>/<%= filesafename %>
