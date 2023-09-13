@@ -26,6 +26,7 @@ $light-orange: lighten($orange, 60%);
 
 // set your custom colors here
 $body-color: #5c5859 !default;
+$dark-bg-text-color: $beige !default;
 
 // headings
 $presentation-heading-color: $blue !default;
@@ -38,6 +39,7 @@ $code-block-border-color: $dark-beige !default;
 
 // links
 $light-bg-link-color: $green !default;
+$dark-bg-link-color: $beige !default;
 
 /*-- scss:rules --*/
 
@@ -159,5 +161,5 @@ div.meta-el {
 }
 
 .reveal .exercise {
-  background-color: $blue;
+  background-color: #00403d;
 }
