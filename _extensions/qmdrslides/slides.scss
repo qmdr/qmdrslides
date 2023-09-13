@@ -36,6 +36,9 @@ $code-block-bg: $beige !default;
 $code-color: $purple !default;
 $code-block-border-color: $dark-beige !default;
 
+// links
+$light-bg-link-color: $green !default;
+
 /*-- scss:rules --*/
 
 details>summary {
@@ -153,4 +156,8 @@ div.meta-el {
 
 .reveal .slide-number > a[href*='title-slide'] {
   display: none;
+}
+
+.reveal .exercise {
+  background-color: $blue;
 }
