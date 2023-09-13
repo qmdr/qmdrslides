@@ -13,6 +13,6 @@ You can learn more about controlling the appearance of RevealJS output here: <ht
 
 # Chapter 2
 
-## one last slide
+## one last slide {.exercise}
 
 here
