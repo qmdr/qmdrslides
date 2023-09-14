@@ -60,11 +60,12 @@ details>summary {
 }
 
 .reveal .slide .poll {
-  border-left: 6px solid $orange;
+  //border-left: 6px solid $orange;
   padding-left: 0.7em;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
   background: $beige;
+  filter: drop-shadow(0 0 0.75rem $purple);
 }
 
 /*
