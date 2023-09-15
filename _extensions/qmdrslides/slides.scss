@@ -24,6 +24,7 @@ $dark-blue: #00403d;
 $beige: #f8f5f0;
 $dark-beige: #9f8e71;
 $light-orange: lighten($orange, 60%);
+$dark-orange: darken($orange, 8%);
 
 // set your custom colors here
 $body-color: #5c5859 !default;
@@ -35,12 +36,15 @@ $presentation-heading-font: "Cabin", "Commissioner", sans serif !default;
 
 // code
 $code-block-bg: $beige !default;
-$code-color: $purple !default;
+$code-color: $dark-purple !default;
+$code-bg: #A9BCC9 !default;
 $code-block-border-color: $dark-beige !default;
 
 // links
-$light-bg-link-color: $green !default;
-$dark-bg-link-color: $beige !default;
+$link-color: $dark-orange !default;
+$light-bg-link-color: $dark-orange !default;
+$dark-bg-link-color: $orange !default;
+
 
 /*-- scss:rules --*/
 
@@ -171,7 +175,6 @@ div.meta-el {
     font-family: "Cabin", "Commissioner", sans serif;
   }
 }
-
 
 blockquote {
   font-family: 'Bitter';
