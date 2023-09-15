@@ -16,6 +16,11 @@ This is what a blockquote looks like:
 
 You can learn more about controlling the appearance of RevealJS output here: <https://quarto.org/docs/presentations/revealjs/>
 
+Here's a numbered list.
+
+1. the first
+2. the second
+
 # Chapter 2
 
 # Activity 1 {.activity}
