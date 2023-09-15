@@ -27,7 +27,8 @@ $light-orange: lighten($orange, 60%);
 $dark-orange: darken($orange, 8%);
 
 // set your custom colors here
-$body-color: #5c5859 !default;
+//$body-color: #5c5859 !default;
+$body-color: #3e3f3a !default;
 $dark-bg-text-color: $beige !default;
 
 // headings
@@ -161,7 +162,7 @@ div.meta-el {
 
 .reveal .footer {
   font-size: .3em !important;
-  //font-family: 'Nanum Myeongjo', serif !important;
+  font-family: 'Nanum Myeongjo', serif !important;
   bottom: 8px !important;
 }
 
