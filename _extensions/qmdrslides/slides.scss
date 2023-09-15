@@ -20,6 +20,7 @@ $green: #02733e;
 $purple: #73245e;
 $dark-purple: #39122f;
 $blue: #00817c;
+$dark-blue: #00403d;
 $beige: #f8f5f0;
 $dark-beige: #9f8e71;
 $light-orange: lighten($orange, 60%);
@@ -143,17 +144,16 @@ div.meta-el {
   text-align: left;
   font-family: 'Nanum Myeongjo', serif;
   margin: 5em 0em 0em 0em; // or margin-top: 1em;
-}
-
-#title-slide h1 {
+  h1 {
   text-align: left;
   color: $blue;
   font-family: 'Nanum Myeongjo', serif;
+  }
 }
 
 .reveal .footer {
   font-size: .3em !important;
-  font-family: 'Nanum Myeongjo', serif !important;
+  //font-family: 'Nanum Myeongjo', serif !important;
   bottom: 8px !important;
 }
 
@@ -161,6 +161,19 @@ div.meta-el {
   display: none;
 }
 
-.reveal .exercise {
-  background-color: #00403d;
+.reveal .activity {
+  color: $beige;
+  .slide-background-content {
+    background: $dark-blue;
+  }
+  h1 {
+    color: $beige;
+    font-family: "Cabin", "Commissioner", sans serif;
+  }
+}
+
+
+blockquote {
+  font-family: 'Bitter';
+  color: $body-color !important;
 }
