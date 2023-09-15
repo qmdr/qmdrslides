@@ -12,7 +12,7 @@ contributes:
       multiplex: false
       transition: fade
       slide-number: c
-      footer: "[qmdr](index.html)"
+      footer: "[Quarto for R & RStudio](index.html)"
       incremental: false 
       menu: false
       highlight-style: github
