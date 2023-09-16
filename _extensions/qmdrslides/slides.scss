@@ -199,9 +199,41 @@ img.drop {
 }
 
 .reveal .live-code {
-  h2::before {
+  a {
+    color: $blue;
+  }
+  .slide-background-content {
+    background: lighten($orange, 25%);
+  }
+  h2 {
+    font-size: 2em;
+    font-family: 'Nanum Myeongjo', serif;
+  }
+  h2:before {
       font-family: FontAwesome;
       content: "\f0e7";
       display: inline-block;
+      padding-right: 15px;
+    }
+}
+
+.reveal .your-turn {
+  color: $beige;
+  .slide-background-content {
+    background: $dark-blue;
+  }
+  code {
+    color: $red;
+  }
+  h2 {
+    font-size: 2em;
+    color: $beige;
+    font-family: 'Nanum Myeongjo', serif;
+  }
+  h2:before {
+      font-family: FontAwesome;
+      content: "\f0a9";
+      display: inline-block;
+      padding-right: 15px;
     }
 }
