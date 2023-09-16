@@ -192,6 +192,8 @@ img.drop {
     filter: drop-shadow(0 0 0.75rem);
 }
 
+// template slides
+
 .icon::before {
   display: inline-block;
   text-rendering: auto;
@@ -223,7 +225,7 @@ img.drop {
     background: $dark-blue;
   }
   code {
-    color: $red;
+    color: lighten($red, 8%);
   }
   h2 {
     font-size: 2em;
