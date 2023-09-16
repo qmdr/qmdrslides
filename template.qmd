@@ -11,6 +11,8 @@ This is what a blockquote looks like:
 
 > Wisdom incarnate.
 
+<div style="display:none;">{{< fa thumbs-up >}}</div>
+
 
 ## More Information
 
@@ -23,5 +25,12 @@ Here's a numbered list.
 
 # Chapter 2
 
-# Activity 1 {.activity}
+
+## Live Code {.live-code}
+
+Here's a [custom highlighted fragment]{.highlight-current-red}.
+
+## Activity 1
+
+Here's a [custom highlighted fragment]{.highlight-current-red}.
 

@@ -27,8 +27,7 @@ $light-orange: lighten($orange, 60%);
 $dark-orange: darken($orange, 8%);
 
 // set your custom colors here
-//$body-color: #5c5859 !default;
-$body-color: #3e3f3a !default;
+$body-color: #5c5859 !default;
 $dark-bg-text-color: $beige !default;
 
 // headings
@@ -184,4 +183,25 @@ div.meta-el {
 blockquote {
   font-family: 'Bitter';
   color: $body-color !important;
+}
+
+img.drop {    
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.75rem);
+}
+
+.icon::before {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.reveal .live-code {
+  h2::before {
+      font-family: FontAwesome;
+      content: "\f0e7";
+      display: inline-block;
+    }
 }
