@@ -48,17 +48,20 @@ $dark-bg-link-color: $orange !default;
 
 /*-- scss:rules --*/
 
-// inline code and code block input
+// Code
 .reveal code.sourceCode {
   font-size: 1.5em;
 }
 
-// code block output
+.reveal pre.sourceCode code {
+  /* height: 500px; */
+  max-height: 800px;
+}
+
 .reveal pre code {
   font-size: 1.5em;
   padding: 1em;
 }
-
 
 .filename {
   font-family: monospace;
@@ -259,3 +262,4 @@ img.drop {
       padding-right: 15px;
     }
 }
+
