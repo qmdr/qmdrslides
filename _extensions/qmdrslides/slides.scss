@@ -48,6 +48,26 @@ $dark-bg-link-color: $orange !default;
 
 /*-- scss:rules --*/
 
+// inline code and code block input
+.reveal code.sourceCode {
+  font-size: 1.7em;
+}
+
+// code block output
+.reveal pre code {
+  font-size: 1.7em;
+  padding: 1em;
+}
+
+
+.filename {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.08em;
+}
+
+//misc
+
 details>summary {
   font-size: 0.75em;
 }
@@ -200,7 +220,7 @@ img.drop {
   -webkit-font-smoothing: antialiased;
 }
 
-.reveal .live-code {
+.reveal .our-turn {
   a {
     color: $blue;
   }
