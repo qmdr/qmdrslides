@@ -179,10 +179,10 @@ div.meta-el {
   padding-left: 50px;
 }
 
-.reveal .footer {
-  font-size: .3em !important;
+.reveal div.footer p a {
   font-family: 'Nanum Myeongjo', serif !important;
-  bottom: 8px !important;
+  color: $body-color;
+  text-decoration: underline;
 }
 
 .reveal .slide-number > a[href*='title-slide'] {
