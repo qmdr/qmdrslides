@@ -13,7 +13,6 @@ a <- 1 + 1
 rnorm(a)
 ```
 
-
 This is what a blockquote looks like:
 
 > Wisdom incarnate.
@@ -21,26 +20,28 @@ This is what a blockquote looks like:
 
 ## More Information
 
-You can learn more about controlling the appearance of RevealJS output here: <https://quarto.org/docs/presentations/revealjs/>
+Here is a link <https://quarto.org/docs/presentations/revealjs/>
 
 Here's a numbered list.
 
 1. the first
 2. the second
 
+
 # Chapter 2
 
 
 ## Our Turn {.our-turn}
 
-Here's a slide for live coding.
+This slide has the class `.our-turn`.
 
 1. A link <https://quarto.org/docs/presentations/revealjs/>
 2. Here is `some code`.
 
+
 ## Your Turn {.your-turn}
 
-Here's a slide for an exercise
+This slide has the class `.your-turn`.
 
 1. A link <https://quarto.org/docs/presentations/revealjs/>
 2. Here is `some code`.
@@ -48,10 +49,10 @@ Here's a slide for an exercise
 
 ## Other classes
 
-This is an example of the [filename]{.filename} class (distinct from verbatim code). Another is a the `.poll` class that you can just to wrap a div
+This is an example of the [filename]{.filename} class (distinct from verbatim code). Another is the `.poll` class that you can just to wrap a 
 
 :::{.poll}
-Like this.
+paragraph like this.
 :::
 
 You can also class images with `.drop` to get an effect similar to the macosx window screenshot.
