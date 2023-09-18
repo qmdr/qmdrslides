@@ -1,11 +1,11 @@
 ---
-title: First Slide Deck
+title: A Slide Deck
 format: qmdrslides-revealjs
 ---
 
 ## Introduction
 
-This is `inline code`. This is an example of the [filename]{.filename} class. Here's a code block:
+This is `inline code`. Here's a code block:
 
 ```{r}
 #| echo: true
@@ -45,3 +45,15 @@ Here's a slide for an exercise
 1. A link <https://quarto.org/docs/presentations/revealjs/>
 2. Here is `some code`.
 
+
+## Other classes
+
+This is an example of the [filename]{.filename} class (distinct from verbatim code). Another is a the `.poll` class that you can just to wrap a div
+
+:::{.poll}
+Like this.
+:::
+
+You can also class images with `.drop` to get an effect similar to the macosx window screenshot.
+
+![](_extensions/qmdrslides/seaplane-bg.png){width=70 fig-align=center .drop}
